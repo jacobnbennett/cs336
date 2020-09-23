@@ -1,0 +1,63 @@
+.header {
+  /* background-color: #2196F3;
+  color: white; */
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto auto auto;
+}
+
+.logo {
+  height: 40%;
+}
+
+.searchBar {
+  background-color: lightgray;
+  vertical-align: 300%;
+}
+
+.row {
+  display: table;
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+
+.menu {
+  /* background-color: #2196F3;
+  color: white; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: maroon;
+}
+
+.column {
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.leftmostButton {
+  display: table-cell;
+}
+
+.menuFont {
+  color: white;
+  font-family: "Helvetica";
+
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+li:hover {
+  color: #f3cd00;
+}
+
+.lastText {
+  text-align: center;
+  font-size: 50;
+}
