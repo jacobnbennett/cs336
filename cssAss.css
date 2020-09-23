@@ -17,6 +17,7 @@
   grid-column: 2/3;
 }
 
+/* Selector to make wrapper align as the third item in grid */
 .searchWrapper {
   grid-column: 3/3;
 }
