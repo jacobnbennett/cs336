@@ -1,26 +1,38 @@
+/* This header is setting up the logo and search bar */
 .header {
   /* background-color: #2196F3;
   color: white; */
-  width: auto;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  table-layout: auto;
 }
 
+/* This logo selector is making the logo size right */
 .logo {
   height: 40%;
 }
 
+/* Makes the searchbar gray, align in the middle  */
 .searchBar {
   background-color: lightgray;
   vertical-align: 300%;
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  table-layout: none;
 }
 
+/* A row selector for making a row of "buttons" in the menu */
 .row {
   display: table;
   table-layout: fixed; /*Optional*/
   border-spacing: 10px; /*Optional*/
 }
 
+/* A menu selector that gives background and width to the menu */
 .menu {
   /* background-color: #2196F3;
   color: white; */
@@ -30,17 +42,20 @@
   background-color: maroon;
 }
 
+/* A generic column selector for styling and positioning elements in a row */
 .column {
   display: table-cell;
   margin-left: auto;
   margin-right: auto;
   width: auto;
+  text-align: center;
 }
 
 .leftmostButton {
   display: table-cell;
 }
 
+/* Font for the menu words */
 .menuFont {
   color: white;
   font-family: "Avenir Next Condensed";
@@ -52,10 +67,12 @@
   font-size: 2vw;
 }
 
+/* Hover selector for the words so they can change color when hovered over  */
 li:hover {
   color: #f3cd00;
 }
 
+/* Last text selector for making it centered and big */
 .lastText {
   text-align: center;
   font-size: 50;
