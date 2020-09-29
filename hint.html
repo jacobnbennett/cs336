@@ -9,18 +9,34 @@
   <body>
     <h1>My First Heading</h1>
     <p>My first paragraph.</p>
-    <button onclick="myFunction()">
-      Hint
-    </button>
-    <div id="demo" style="display:none;">Here is the hint</div>
 
+    <!-- button for making the hint appear -->
+    <button onclick="myFunction()">
+      <Text id="close" style="display:none;">Close</Text>Hint
+    </button>
+
+    <!-- the hint -->
+    <div id="hint" style="display:none;">Here is the hint</div>
+
+    <!-- Random text -->
+    <div>
+      <text>sfkjadhfjkhdf</text>
+      <text>sfkjadhfjkhdf</text>
+    </div>
+
+    <!-- javascript for the function -->
     <script>
+      // This function makes the hint and text appear when the button is clicked.
       function myFunction() {
-        var x = document.getElementById("demo");
-        if (x.style.display === "none") {
-          x.style.display = "block";
+        //
+        const hint = document.getElementById("hint");
+        const close = document.getElementById("close");
+        if (hint.style.display === "none") {
+          hint.style.display = "block";
+          close.style.display = "block";
         } else {
-          x.style.display = "none";
+          hint.style.display = "none";
+          close.style.display = "none";
         }
       }
     </script>
