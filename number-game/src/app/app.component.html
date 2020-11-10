@@ -1,0 +1,21 @@
+
+<h1> Guess the Square Root Game</h1>
+
+<label>Guess the sqrt() of <input type="text" placeholder={{number}} [(ngModel)]="number"> within <input type="text" placeholder="1" [(ngModel)]="percent"> %</label>
+<br/>
+<button onclick="randomize()"> Randomize Number</button>
+<hr>
+
+<!-- <p> {{feedback}} </p> -->
+<ul>
+  <li *ngFor="let feedback of list">
+    <span>{{feedback}}</span>
+
+  </li>
+</ul>
+
+<label>Enter your guess: <input   [(ngModel)]="guess" type="text" (keyup.enter)="submit()"></label>
+<!-- <input [(ngModel)]="ninja.name"> -->
+
+
+
