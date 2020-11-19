@@ -1,0 +1,40 @@
+.example-card {
+  max-width: 400px;
+  min-width: 300px;
+  background-color: white;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 10px;
+  margin: auto;
+  max-width: 30vw;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.header-text {
+  color: black;
+}
+
+.subtitle-text {
+  color: black;
+}
+
+.content-text {
+  color: black;
+}
+
+// makes the slider span the entire card component
+.slider {
+  min-width: 100%;
+}
+
+// icon to the right
+.icon {
+  color: black;
+  font-size: 50px;
+  margin: auto;
+  position: absolute;
+  right: 30px;
+}
